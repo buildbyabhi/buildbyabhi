@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>SpendWise — Smart Expense Tracker</title>
+  <meta name="description" content="Track expenses, set budgets, and gain insights into your spending with SpendWise. Works offline as an installable app." />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Theme & Icons -->
+  <meta name="theme-color" content="#8B5CF6" />
+  <meta name="msapplication-TileColor" content="#8B5CF6" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png" />
+
+  <!-- iOS PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="SpendWise" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+
+  <!-- Android PWA -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="SpendWise" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SpendWise — Smart Expense Tracker" />
+  <meta property="og:description" content="Track expenses, set budgets, and gain insights into your spending." />
+  <meta property="og:image" content="icon-512.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <!-- SheetJS for Excel/CSV parsing -->
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <!-- PDF.js for PDF text extraction -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- PWA Install Banner -->
+  <div class="pwa-update-bar hidden" id="pwaUpdateBar">
+    <span>🎉 A new version of SpendWise is available!</span>
+    <button class="btn-update" id="pwaUpdateBtn">Update Now</button>
+    <button class="btn-update-dismiss" id="pwaUpdateDismiss">×</button>
+  </div>
+
+  <!-- PWA Install Prompt -->
+  <div class="pwa-install-banner hidden" id="pwaInstallBanner">
+    <div class="pwa-install-icon">📱</div>
+    <div class="pwa-install-text">
+      <strong>Install SpendWise</strong>
+      <span>Add to your home screen for the best experience</span>
+    </div>
+    <button class="btn btn-primary" id="pwaInstallBtn">Install</button>
+    <button class="pwa-install-close" id="pwaInstallClose">×</button>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <span class="logo-text">SpendWise</span>
+      </div>
+      <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#" class="nav-item active" data-page="dashboard" id="nav-dashboard">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+        <span class="nav-label">Dashboard</span>
+      </a>
+      <a href="#" class="nav-item" data-page="transactions" id="nav-transactions">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="16" x2="13" y2="16"/></svg></span>
+        <span class="nav-label">Transactions</span>
+      </a>
+      <a href="#" class="nav-item" data-page="budgets" id="nav-budgets">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+        <span class="nav-label">Budgets</span>
+      </a>
+      <a href="#" class="nav-item" data-page="analytics" id="nav-analytics">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+        <span class="nav-label">Analytics</span>
+      </a>
+      <a href="#" class="nav-item" data-page="settings" id="nav-settings">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M4.93 4.93l1.41 1.41M19.07 19.07l-1.41-1.41M4.93 19.07l1.41-1.41M20 12h1M3 12H2M12 20v1M12 3V2"/></svg></span>
+        <span class="nav-label">Settings</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon theme-icon-dark">🌙</span>
+        <span class="theme-icon theme-icon-light">☀️</span>
+        <span class="nav-label" id="themeLabel">Dark Mode</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content" id="mainContent">
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1 class="page-title" id="pageTitle">Dashboard</h1>
+        <p class="page-subtitle" id="pageSubtitle">Welcome back! Here's your financial overview.</p>
+      </div>
+      <div class="topbar-right">
+        <div class="currency-selector">
+          <select id="currencySelector" aria-label="Currency">
+            <option value="INR">₹ INR</option>
+            <option value="USD">$ USD</option>
+            <option value="EUR">€ EUR</option>
+            <option value="GBP">£ GBP</option>
+            <option value="JPY">¥ JPY</option>
+            <option value="CAD">CA$ CAD</option>
+          </select>
+        </div>
+        <button class="btn btn-ghost" id="openImport">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          Import
+        </button>
+        <button class="btn btn-primary add-expense-btn" id="openAddExpense">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Add Expense
+        </button>
+      </div>
+    </header>
+
+    <!-- Page: Dashboard -->
+    <div class="page" id="page-dashboard">
+      <!-- Summary Cards -->
+      <div class="summary-grid">
+        <div class="summary-card summary-total">
+          <div class="summary-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+          </div>
+          <div class="summary-info">
+            <span class="summary-label">Total Spent</span>
+            <span class="summary-value" id="totalSpent">₹0</span>
+            <span class="summary-change" id="totalChange"></span>
+          </div>
+        </div>
+        <div class="summary-card summary-month">
+          <div class="summary-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="summary-info">
+            <span class="summary-label">This Month</span>
+            <span class="summary-value" id="monthSpent">₹0</span>
+            <span class="summary-change" id="monthChange"></span>
+          </div>
+        </div>
+        <div class="summary-card summary-budget">
+          <div class="summary-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="summary-info">
+            <span class="summary-label">Budget Left</span>
+            <span class="summary-value" id="budgetLeft">₹0</span>
+            <span class="summary-change" id="budgetChange"></span>
+          </div>
+        </div>
+        <div class="summary-card summary-transactions">
+          <div class="summary-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <div class="summary-info">
+            <span class="summary-label">Transactions</span>
+            <span class="summary-value" id="totalTransactions">0</span>
+            <span class="summary-change" id="transactionChange"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Row -->
+      <div class="charts-row">
+        <div class="card chart-card">
+          <div class="card-header">
+            <h2 class="card-title">Spending by Category</h2>
+            <select id="chartPeriod" class="mini-select">
+              <option value="month">This Month</option>
+              <option value="year">This Year</option>
+              <option value="all">All Time</option>
+            </select>
+          </div>
+          <div class="chart-wrapper donut-wrapper">
+            <canvas id="categoryChart"></canvas>
+            <div class="donut-center" id="donutCenter">
+              <span class="donut-total" id="donutTotal">₹0</span>
+              <span class="donut-label">total</span>
+            </div>
+          </div>
+          <div class="chart-legend" id="categoryLegend"></div>
+        </div>
+
+        <div class="card chart-card">
+          <div class="card-header">
+            <h2 class="card-title">Monthly Trend</h2>
+            <select id="trendPeriod" class="mini-select">
+              <option value="6">Last 6 months</option>
+              <option value="12">Last 12 months</option>
+            </select>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent Transactions -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Recent Transactions</h2>
+          <button class="btn btn-ghost" id="viewAllBtn">View All →</button>
+        </div>
+        <div class="transactions-list" id="recentTransactions">
+          <div class="empty-state" id="dashboardEmpty">
+            <div class="empty-icon">💸</div>
+            <p>No expenses yet. Add your first one!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page: Transactions -->
+    <div class="page hidden" id="page-transactions">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">All Transactions</h2>
+          <div class="header-actions">
+            <button class="btn btn-ghost" id="exportCsvBtn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Export CSV
+            </button>
+          </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters-bar">
+          <div class="filter-group">
+            <label for="filterCategory">Category</label>
+            <select id="filterCategory">
+              <option value="">All Categories</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filterMonth">Month</label>
+            <input type="month" id="filterMonth" />
+          </div>
+          <div class="filter-group">
+            <label for="filterSearch">Search</label>
+            <input type="text" id="filterSearch" placeholder="Search transactions..." />
+          </div>
+          <button class="btn btn-ghost" id="clearFilters">Clear</button>
+        </div>
+
+        <div class="transactions-list" id="allTransactionsList">
+          <div class="empty-state">
+            <div class="empty-icon">💸</div>
+            <p>No expenses yet. Add your first one!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page: Budgets -->
+    <div class="page hidden" id="page-budgets">
+      <div class="budget-header-actions">
+        <button class="btn btn-primary" id="openAddBudget">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Set Budget
+        </button>
+      </div>
+      <div class="budgets-grid" id="budgetsGrid">
+        <div class="empty-state card" style="grid-column:1/-1">
+          <div class="empty-icon">🎯</div>
+          <p>No budgets set. Click "Set Budget" to add one!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page: Analytics -->
+    <div class="page hidden" id="page-analytics">
+      <div class="analytics-grid">
+        <div class="card">
+          <div class="card-header"><h2 class="card-title">Day of Week Spending</h2></div>
+          <div class="chart-wrapper"><canvas id="weekdayChart"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><h2 class="card-title">Top Spending Categories</h2></div>
+          <div class="top-categories" id="topCategories"></div>
+        </div>
+        <div class="card full-width">
+          <div class="card-header"><h2 class="card-title">Daily Spending — Last 30 Days</h2></div>
+          <div class="chart-wrapper"><canvas id="dailyChart"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><h2 class="card-title">Spending Insights</h2></div>
+          <div class="insights-list" id="insightsList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page: Settings -->
+    <div class="page hidden" id="page-settings">
+      <div class="settings-grid">
+        <div class="card settings-card">
+          <h2 class="card-title">Appearance</h2>
+          <div class="setting-item">
+            <div class="setting-info">
+              <strong>Theme</strong>
+              <p>Choose your preferred color scheme</p>
+            </div>
+            <div class="theme-options" id="themeOptions">
+              <button class="theme-opt" data-theme="auto" id="themeAuto">Auto</button>
+              <button class="theme-opt" data-theme="light" id="themeLight">Light</button>
+              <button class="theme-opt active" data-theme="dark" id="themeDark">Dark</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card settings-card">
+          <h2 class="card-title">Currency</h2>
+          <div class="setting-item">
+            <div class="setting-info">
+              <strong>Default Currency</strong>
+              <p>All amounts will be displayed in this currency</p>
+            </div>
+            <select id="settingsCurrency" class="settings-select">
+              <option value="INR">₹ INR — Indian Rupee</option>
+              <option value="USD">$ USD — US Dollar</option>
+              <option value="EUR">€ EUR — Euro</option>
+              <option value="GBP">£ GBP — British Pound</option>
+              <option value="JPY">¥ JPY — Japanese Yen</option>
+              <option value="CAD">CA$ CAD — Canadian Dollar</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="card settings-card">
+          <h2 class="card-title">Categories</h2>
+          <div class="categories-manager">
+            <div class="categories-list" id="categoriesList"></div>
+            <div class="add-category-row">
+              <input type="text" id="newCategoryName" placeholder="Category name" />
+              <input type="color" id="newCategoryColor" value="#8B5CF6" aria-label="Category color"/>
+              <button class="btn btn-primary" id="addCategoryBtn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card settings-card">
+          <h2 class="card-title">Data</h2>
+          <div class="setting-item">
+            <div class="setting-info">
+              <strong>Export All Data</strong>
+              <p>Download all your transactions as CSV</p>
+            </div>
+            <button class="btn btn-ghost" id="exportAllBtn">Export CSV</button>
+          </div>
+          <div class="setting-item danger-zone">
+            <div class="setting-info">
+              <strong>Clear All Data</strong>
+              <p>Permanently delete all transactions and budgets</p>
+            </div>
+            <button class="btn btn-danger" id="clearAllDataBtn">Clear All</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Add Expense Modal -->
+  <div class="modal-overlay" id="addExpenseOverlay">
+    <div class="modal" id="addExpenseModal" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+      <div class="modal-header">
+        <h2 id="modalTitle">Add Expense</h2>
+        <button class="modal-close" id="closeAddExpense" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <form id="addExpenseForm" class="modal-body">
+        <input type="hidden" id="editExpenseId" value="" />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="expenseAmount">Amount <span class="required">*</span></label>
+            <div class="input-with-prefix">
+              <span class="input-prefix" id="amountPrefix">₹</span>
+              <input type="number" id="expenseAmount" placeholder="0.00" min="0" step="0.01" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="expenseCurrency">Currency</label>
+            <select id="expenseCurrency">
+              <option value="INR">₹ INR</option>
+              <option value="USD">$ USD</option>
+              <option value="EUR">€ EUR</option>
+              <option value="GBP">£ GBP</option>
+              <option value="JPY">¥ JPY</option>
+              <option value="CAD">CA$ CAD</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="expenseDescription">Description <span class="required">*</span></label>
+          <input type="text" id="expenseDescription" placeholder="What did you spend on?" required />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="expenseCategory">Category <span class="required">*</span></label>
+            <select id="expenseCategory" required>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="expenseDate">Date <span class="required">*</span></label>
+            <input type="date" id="expenseDate" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="expenseNote">Note</label>
+          <textarea id="expenseNote" rows="2" placeholder="Additional notes (optional)"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="expenseRecurring" />
+            <span class="checkmark"></span>
+            Recurring expense
+          </label>
+        </div>
+
+        <div class="recurring-options hidden" id="recurringOptions">
+          <div class="form-group">
+            <label for="recurringFrequency">Frequency</label>
+            <select id="recurringFrequency">
+              <option value="weekly">Weekly</option>
+              <option value="monthly" selected>Monthly</option>
+              <option value="yearly">Yearly</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost" id="cancelExpense">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="submitExpense">Add Expense</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Add Budget Modal -->
+  <div class="modal-overlay" id="addBudgetOverlay">
+    <div class="modal" role="dialog" aria-labelledby="budgetModalTitle" aria-modal="true">
+      <div class="modal-header">
+        <h2 id="budgetModalTitle">Set Budget</h2>
+        <button class="modal-close" id="closeAddBudget" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <form id="addBudgetForm" class="modal-body">
+        <div class="form-group">
+          <label for="budgetCategory">Category <span class="required">*</span></label>
+          <select id="budgetCategory" required></select>
+        </div>
+        <div class="form-group">
+          <label for="budgetAmount">Monthly Budget <span class="required">*</span></label>
+          <div class="input-with-prefix">
+            <span class="input-prefix" id="budgetPrefix">₹</span>
+            <input type="number" id="budgetAmount" placeholder="0.00" min="0" step="0.01" required />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost" id="cancelBudget">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Budget</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Confirm Delete Modal -->
+  <div class="modal-overlay" id="confirmOverlay">
+    <div class="modal small-modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h2>Confirm Delete</h2>
+      </div>
+      <div class="modal-body">
+        <p id="confirmMessage">Are you sure you want to delete this?</p>
+        <div class="modal-footer">
+          <button class="btn btn-ghost" id="cancelConfirm">Cancel</button>
+          <button class="btn btn-danger" id="confirmDelete">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ═══════════════════════════════════════
+       IMPORT MODAL — 3-step wizard
+  ════════════════════════════════════════ -->
+  <div class="modal-overlay" id="importOverlay">
+    <div class="modal import-modal" role="dialog" aria-labelledby="importModalTitle" aria-modal="true">
+
+      <!-- Header -->
+      <div class="modal-header">
+        <div class="import-header-left">
+          <h2 id="importModalTitle">Import Expenses</h2>
+          <!-- Step indicator -->
+          <div class="import-steps">
+            <div class="import-step active" id="istep-1">
+              <span class="step-num">1</span><span class="step-label">Upload</span>
+            </div>
+            <div class="import-step-line"></div>
+            <div class="import-step" id="istep-2">
+              <span class="step-num">2</span><span class="step-label">Map Columns</span>
+            </div>
+            <div class="import-step-line"></div>
+            <div class="import-step" id="istep-3">
+              <span class="step-num">3</span><span class="step-label">Preview</span>
+            </div>
+          </div>
+        </div>
+        <button class="modal-close" id="closeImport" aria-label="Close import modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- ── STEP 1: Upload ── -->
+      <div class="import-step-content" id="import-panel-1">
+        <div class="import-dropzone" id="importDropzone">
+          <input type="file" id="importFileInput" accept=".xlsx,.xls,.csv,.pdf" hidden />
+          <div class="dropzone-icon">📂</div>
+          <p class="dropzone-title">Drop your file here</p>
+          <p class="dropzone-sub">Supports <strong>Excel</strong> (.xlsx, .xls), <strong>CSV</strong> (.csv) and <strong>PDF</strong> (.pdf)</p>
+          <button class="btn btn-primary" id="importBrowseBtn">Browse File</button>
+        </div>
+        <div class="import-file-info hidden" id="importFileInfo">
+          <div class="file-info-icon" id="importFileIcon">📄</div>
+          <div class="file-info-details">
+            <span class="file-info-name" id="importFileName">file.xlsx</span>
+            <span class="file-info-size" id="importFileSize">0 KB</span>
+          </div>
+          <button class="icon-btn" id="importFileRemove" title="Remove file">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        <div class="import-tips">
+          <p class="import-tip-title">📋 Supported formats</p>
+          <ul class="import-tip-list">
+            <li><strong>Excel / CSV</strong> — Columns: Date, Description, Amount, Category (optional)</li>
+            <li><strong>PDF Bank Statement</strong> — Transactions are extracted automatically from tabular text</li>
+          </ul>
+          <a class="import-download-template" id="downloadTemplateBtn" href="#">⬇ Download Excel template</a>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-ghost" id="importCancelStep1">Cancel</button>
+          <button class="btn btn-primary" id="importNextStep1" disabled>Next: Map Columns →</button>
+        </div>
+      </div>
+
+      <!-- ── STEP 2: Column Mapping (Excel/CSV only) ── -->
+      <div class="import-step-content hidden" id="import-panel-2">
+        <p class="import-panel-desc">Match your file's columns to SpendWise fields. Detected column headers are shown below.</p>
+        <div class="col-map-grid" id="colMapGrid">
+          <!-- generated dynamically -->
+        </div>
+        <div class="import-mapping-preview">
+          <p class="import-tip-title">📝 Sample rows from your file</p>
+          <div class="import-sample-table-wrapper">
+            <table class="import-sample-table" id="importSampleTable"></table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-ghost" id="importBackStep2">← Back</button>
+          <button class="btn btn-primary" id="importNextStep2">Next: Preview →</button>
+        </div>
+      </div>
+
+      <!-- ── STEP 3: Preview & Confirm ── -->
+      <div class="import-step-content hidden" id="import-panel-3">
+        <div class="import-preview-header">
+          <div class="import-preview-stats">
+            <span class="preview-stat" id="previewStatValid">0 valid</span>
+            <span class="preview-stat warn" id="previewStatSkip">0 skipped</span>
+          </div>
+          <div class="import-preview-actions">
+            <button class="btn btn-ghost" id="previewSelectAll">Select All</button>
+            <button class="btn btn-ghost" id="previewDeselectAll">Deselect All</button>
+          </div>
+        </div>
+
+        <!-- Default category for rows without one -->
+        <div class="import-default-cat">
+          <label for="importDefaultCat">Default category for unmatched rows:</label>
+          <select id="importDefaultCat"></select>
+        </div>
+
+        <div class="import-preview-table-wrapper">
+          <table class="import-preview-table" id="importPreviewTable">
+            <thead>
+              <tr>
+                <th><input type="checkbox" id="previewCheckAll" checked /></th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="importPreviewBody"></tbody>
+          </table>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-ghost" id="importBackStep3">← Back</button>
+          <button class="btn btn-primary" id="importConfirmBtn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Import Selected
+          </button>
+        </div>
+      </div>
+
+      <!-- Loading overlay -->
+      <div class="import-loading hidden" id="importLoading">
+        <div class="import-spinner"></div>
+        <p id="importLoadingMsg">Processing file…</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

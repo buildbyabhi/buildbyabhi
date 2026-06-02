@@ -119,7 +119,22 @@ const abhishek = {
 
 <div align="center">
 
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
 ## 🌐 Connect with Me
+
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-buildbyabhi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/buildbyabhi)
