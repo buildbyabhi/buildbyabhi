@@ -16,6 +16,10 @@
 <a href="https://github.com/buildbyabhi?tab=followers">
   <img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="GitHub Followers"/>
 </a>
+&nbsp;
+<a href="https://buildbyabhi.github.io">
+  <img src="https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+</a>
 
 </div>
 
@@ -28,6 +32,7 @@ const abhishek = {
   name        : "Abhishek Kumar",
   username    : "buildbyabhi",
   location    : "India 🇮🇳",
+  portfolio   : "https://buildbyabhi.github.io",
   email       : "kumarkumarabhishek285@gmail.com",
   passion     : "Building things that matter 💡",
   currentFocus: ["Web Development", "Open Source", "Learning every day"],
@@ -106,6 +111,7 @@ const abhishek = {
 
 ## 🌐 Connect with Me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-buildbyabhi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/buildbyabhi)
 [![Gmail](https://img.shields.io/badge/Gmail-kumarkumarabhishek285-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumarkumarabhishek285@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/buildbyabhi)
