@@ -84,7 +84,25 @@ const abhishek = {
 
 <div align="center">
 
+## 🚀 Featured Projects
+
+</div>
+
+| 🏷️ Project | 🔗 Links | 🛠️ Stack | 📝 Description |
+|------------|---------|---------|---------------|
+| **💰 ExpensePro Full-Stack** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/expensepro-fullstack) | `React 19` `Node.js` `MongoDB` `JWT` | Premium full-stack expense tracker with glassmorphism UI, JWT auth & Recharts |
+| **🌐 Portfolio Website** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/buildbyabhi.github.io) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io) | `HTML` `CSS` `JS` | Personal developer portfolio with animations & scroll effects |
+| **🌿 Fresh Factory** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/fresh-factory) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/fresh-factory) | `React` `JSX` `CSS` | Organic cafe website — interactive menu tabs & table booking |
+| **🥷 CoC Ninja** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/coc-ninja-progress-tracker) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/coc-ninja-progress-tracker) | `HTML` `CSS` `JS` | Offline Clash of Clans progress tracker — heroes, troops & war stats |
+| **💸 XpensePro** | [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://xpensepro2026.vercel.app/) | `React` `Vercel` | Smart expense tracker with beautiful analytics — live on Vercel |
+| **📊 IOCL Research Report** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/iocl-lucknow-report) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/iocl-lucknow-report) | `HTML` `Research` | 12-page corporate analysis & technical report for IOCL Lucknow |
+
+---
+
+<div align="center">
+
 ## 📊 GitHub Stats
+
 
 <img src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github" width="49%" alt="GitHub Stats"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888" width="49%" alt="GitHub Streak"/>
