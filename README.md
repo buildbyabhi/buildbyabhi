@@ -96,6 +96,7 @@ const abhishek = {
 | **🥷 CoC Ninja** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/coc-ninja-progress-tracker) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/coc-ninja-progress-tracker) | `HTML` `CSS` `JS` | Offline Clash of Clans progress tracker — heroes, troops & war stats |
 | **💸 XpensePro** | [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://xpensepro2026.vercel.app/) | `React` `Vercel` | Smart expense tracker with beautiful analytics — live on Vercel |
 | **📊 IOCL Research Report** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/iocl-lucknow-report) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/iocl-lucknow-report) | `HTML` `Research` | 12-page corporate analysis & technical report for IOCL Lucknow |
+| **🤖 GeminiChat** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/gemini-chat) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://gemini-chat-buildbyabhi.vercel.app) | `React` `Gemini API` `Vite` | ChatGPT-style AI chatbot with streaming responses & markdown |
 
 ---
 
