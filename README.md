@@ -31,14 +31,20 @@
 const abhishek = {
   name        : "Abhishek Kumar",
   username    : "buildbyabhi",
+  role        : "Student & Web Developer 🎓",
   location    : "India 🇮🇳",
   portfolio   : "https://buildbyabhi.github.io",
   email       : "kumarkumarabhishek285@gmail.com",
-  passion     : "Building things that matter 💡",
-  currentFocus: ["Web Development", "Open Source", "Learning every day"],
-  funFact     : "I debug with console.log() and I'm not ashamed 😄",
+  passion     : "Creating things people can actually use 💡",
+  currentFocus: ["Web Development", "Open Source", "Building Projects"],
+  motto       : "Still learning. Still improving. Still showing up. 🔥",
 };
 ```
+
+> 👋 I'm **Abhishek**, a student and web developer from India.
+> I like creating things that people can actually use.
+> I spend most of my time **learning, building projects**, and turning ideas into reality.
+> Still learning, still improving, and still showing up every day. 💪
 
 <br/>
 
