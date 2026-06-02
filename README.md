@@ -41,10 +41,14 @@ const abhishek = {
 };
 ```
 
-> 👋 I'm **Abhishek**, a student and web developer from India.
-> I like creating things that people can actually use.
-> I spend most of my time **learning, building projects**, and turning ideas into reality.
-> Still learning, still improving, and still showing up every day. 💪
+<div align="center">
+
+<p>👋 I'm <strong>Abhishek</strong>, a student and web developer from India.</p>
+<p>I like creating things that people can actually use.</p>
+<p>I spend most of my time <strong>learning, building projects</strong>, and turning ideas into reality.</p>
+<p>Still learning, still improving, and still showing up every day. 💪</p>
+
+</div>
 
 <br/>
 
