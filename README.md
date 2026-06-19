@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- Animated Wave Header with Name -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%20there!%20I'm%20Abhishek%20%F0%9F%91%8B&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=buildbyabhi%20%7C%20Developer%20%7C%20Builder%20%7C%20Creator&descAlignY=55&descSize=20" width="100%"/>
@@ -25,28 +25,28 @@
 
 ---
 
-## ≡ƒºæΓÇì≡ƒÆ╗ About Me
+## 🧑‍💻 About Me
 
 ```typescript
 const abhishek = {
   name        : "Abhishek Kumar",
   username    : "buildbyabhi",
-  role        : "Student & Web Developer ≡ƒÄô",
-  location    : "India ≡ƒç«≡ƒç│",
+  role        : "Student & Web Developer 🎓",
+  location    : "India 🇮🇳",
   portfolio   : "https://buildbyabhi.github.io",
   email       : "buildbyabhi.dev@gmail.com",
-  passion     : "Creating things people can actually use ≡ƒÆí",
+  passion     : "Creating things people can actually use 💡",
   currentFocus: ["Web Development", "Open Source", "Building Projects"],
-  motto       : "Still learning. Still improving. Still showing up. ≡ƒöÑ",
+  motto       : "Still learning. Still improving. Still showing up. 🔥",
 };
 ```
 
 <div align="center">
 
-<p>≡ƒæï I'm <strong>Abhishek</strong>, a student and web developer from India.</p>
+<p>👋 I'm <strong>Abhishek</strong>, a student and web developer from India.</p>
 <p>I like creating things that people can actually use.</p>
 <p>I spend most of my time <strong>learning, building projects</strong>, and turning ideas into reality.</p>
-<p>Still learning, still improving, and still showing up every day. ≡ƒÆ¬</p>
+<p>Still learning, still improving, and still showing up every day. 💪</p>
 
 </div>
 
@@ -54,7 +54,7 @@ const abhishek = {
 
 <div align="center">
 
-## ≡ƒ¢á∩╕Å Tech Stack
+## 🛠️ Tech Stack
 
 **Languages**
 
@@ -84,26 +84,26 @@ const abhishek = {
 
 <div align="center">
 
-## ≡ƒÜÇ Featured Projects
+## 🚀 Featured Projects
 
 </div>
 
-| ≡ƒÅ╖∩╕Å Project | ≡ƒöù Links | ≡ƒ¢á∩╕Å Stack | ≡ƒô¥ Description |
+| 🏷️ Project | 🔗 Links | 🛠️ Stack | 📝 Description |
 |------------|---------|---------|---------------|
-| **≡ƒÄ╡ Insta2YouTube Playlist** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/Insta2YouTube) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://insta2-you-tube.vercel.app/) [![APK](https://img.shields.io/badge/APK-Download-4CAF50?style=flat-square&logo=android)](https://expo.dev/accounts/buildbyabhi/projects/mobile-app/builds/a69b0735-9a30-4339-8f96-2ab738a73f17) | `React Native` `Node.js` `Gemini AI` `YouTube API` | Full-stack cross-platform app that identifies songs from IG Reels using AI and auto-adds them to YouTube playlists |
-| **≡ƒÆ░ ExpensePro Full-Stack** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/expensepro-fullstack) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://expensepro-fullstack.vercel.app) | `React 19` `Node.js` `MongoDB` `JWT` | Premium full-stack expense tracker with glassmorphism UI, JWT auth & Recharts |
-| **≡ƒîÉ Portfolio Website** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/buildbyabhi.github.io) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io) | `HTML` `CSS` `JS` | Personal developer portfolio with animations & scroll effects |
-| **≡ƒî┐ Fresh Factory** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/fresh-factory) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/fresh-factory) | `React` `JSX` `CSS` | Organic cafe website ΓÇö interactive menu tabs & table booking |
-| **≡ƒÑ╖ CoC Ninja** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/coc-ninja-progress-tracker) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/coc-ninja-progress-tracker) | `HTML` `CSS` `JS` | Offline Clash of Clans progress tracker ΓÇö heroes, troops & war stats |
-| **≡ƒÆ╕ XpensePro** | [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://xpensepro2026.vercel.app/) | `React` `Vercel` | Smart expense tracker with beautiful analytics ΓÇö live on Vercel |
-| **≡ƒôè IOCL Research Report** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/iocl-lucknow-report) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/iocl-lucknow-report) | `HTML` `Research` | 12-page corporate analysis & technical report for IOCL Lucknow |
-| **≡ƒñû GeminiChat** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/gemini-chat) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://geeminiai.vercel.app) | `React` `Gemini API` `Vite` | ChatGPT-style AI chatbot with streaming responses & markdown |
+| **🎵 Insta2YouTube Playlist** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/Insta2YouTube) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://insta2-you-tube.vercel.app/) [![APK](https://img.shields.io/badge/APK-Download-4CAF50?style=flat-square&logo=android)](https://expo.dev/accounts/buildbyabhi/projects/mobile-app/builds/a69b0735-9a30-4339-8f96-2ab738a73f17) | `React Native` `Node.js` `Gemini AI` `YouTube API` | Full-stack cross-platform app that identifies songs from IG Reels using AI and auto-adds them to YouTube playlists |
+| **💰 ExpensePro Full-Stack** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/expensepro-fullstack) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://expensepro-fullstack.vercel.app) | `React 19` `Node.js` `MongoDB` `JWT` | Premium full-stack expense tracker with glassmorphism UI, JWT auth & Recharts |
+| **🌐 Portfolio Website** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/buildbyabhi.github.io) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io) | `HTML` `CSS` `JS` | Personal developer portfolio with animations & scroll effects |
+| **🌿 Fresh Factory** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/fresh-factory) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/fresh-factory) | `React` `JSX` `CSS` | Organic cafe website — interactive menu tabs & table booking |
+| **🥷 CoC Ninja** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/coc-ninja-progress-tracker) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/coc-ninja-progress-tracker) | `HTML` `CSS` `JS` | Offline Clash of Clans progress tracker — heroes, troops & war stats |
+| **💸 XpensePro** | [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://xpensepro2026.vercel.app/) | `React` `Vercel` | Smart expense tracker with beautiful analytics — live on Vercel |
+| **📊 IOCL Research Report** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/iocl-lucknow-report) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/iocl-lucknow-report) | `HTML` `Research` | 12-page corporate analysis & technical report for IOCL Lucknow |
+| **🤖 GeminiChat** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/gemini-chat) [![Live](https://img.shields.io/badge/Live-Visit-a855f7?style=flat-square&logo=vercel)](https://geeminiai.vercel.app) | `React` `Gemini API` `Vite` | ChatGPT-style AI chatbot with streaming responses & markdown |
 
 ---
 
 <div align="center">
 
-## ≡ƒôè GitHub Stats
+## 📊 GitHub Stats
 
 
 <img src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github" width="49%" alt="GitHub Stats"/>
@@ -119,7 +119,7 @@ const abhishek = {
 
 <div align="center">
 
-## ≡ƒÅå GitHub Trophies
+## 🏆 GitHub Trophies
 
 <img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies"/>
 
@@ -129,7 +129,7 @@ const abhishek = {
 
 <div align="center">
 
-## ≡ƒôê Contribution Graph
+## 📈 Contribution Graph
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
 
@@ -139,7 +139,7 @@ const abhishek = {
 
 <div align="center">
 
-## ≡ƒÉì Contribution Snake
+## 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake-dark.svg" />
@@ -153,18 +153,17 @@ const abhishek = {
 
 <div align="center">
 
-## ≡ƒîÉ Connect with Me
+## 🌐 Connect with Me
 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-buildbyabhi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/buildbyabhi)
 [![Gmail](https://img.shields.io/badge/Gmail-buildbyabhi.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:buildbyabhi.dev@gmail.com)
-
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/buildbyabhi)
 
 <br/>
 
-*"First, solve the problem. Then, write the code." ΓÇö John Johnson*
+*"First, solve the problem. Then, write the code." — John Johnson*
 
 <br/>
 
