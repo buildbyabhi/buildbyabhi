@@ -11,7 +11,9 @@
 <br/>
 
 <!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=buildbyabhi&label=Profile%20Views&color=a855f7&style=for-the-badge" alt="Profile Views"/>
+<a href="https://github.com/buildbyabhi">
+  <img src="https://profile-counter.glitch.me/buildbyabhi/count.svg" alt="Profile Views"/>
+</a>
 &nbsp;
 <a href="https://github.com/buildbyabhi?tab=followers">
   <img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="GitHub Followers"/>
