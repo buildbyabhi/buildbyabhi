@@ -12,7 +12,7 @@
 
 <!-- Profile Views & Followers -->
 <a href="https://github.com/buildbyabhi">
-  <img src="https://profile-counter.glitch.me/buildbyabhi/count.svg" alt="Profile Views"/>
+  <img src="https://visitcount.itsvg.in/api?id=buildbyabhi&label=Profile%20Views&color=12&icon=5&pretty=true" alt="Profile Views"/>
 </a>
 &nbsp;
 <a href="https://github.com/buildbyabhi?tab=followers">
