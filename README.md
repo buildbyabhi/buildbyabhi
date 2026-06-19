@@ -1,7 +1,6 @@
 ﻿# Hi there, I'm Abhishek Kumar ðŸ‘‹
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Website-0055FF?style=for-the-badge&logo=vercel)](https://buildbyabhi.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-blue?style=for-the-badge&logo=linkedin)](#) <!-- YAHAN APNA LINKEDIN URL DAALEIN -->
 
 **ðŸš€ Developer | Builder | Open Source Enthusiast | Building cool stuff**
 
@@ -48,10 +47,11 @@ A specialized **progress tracking tool** built for Clash of Clans players to mon
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 
 *   **Portfolio:** [buildbyabhi.github.io](https://buildbyabhi.github.io)
-*   **Email:** <!-- YAHAN APNA EMAIL DAALEIN -->
+*   **Email:** [buildbyabhi.dev@gmail.com](mailto:buildbyabhi.dev@gmail.com)
 
 <br/>
 <p align="center">
   <i>Visitors:</i><br>
   <img src="https://profile-counter.glitch.me/buildbyabhi/count.svg" alt="Profile views" />
 </p>
+
