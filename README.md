@@ -11,7 +11,7 @@
 <br/>
 
 <!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=buildbyabhi&label=Profile%20Views&color=a855f7&style=for-the-badge&v=2" alt="Profile Views"/>
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbuildbyabhi&count_bg=%23A855F7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=true" alt="Profile Views"/>
 &nbsp;
 <a href="https://github.com/buildbyabhi?tab=followers">
   <img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="GitHub Followers"/>
