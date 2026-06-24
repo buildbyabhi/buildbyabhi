@@ -156,10 +156,10 @@ const abhishek = {
 ## 🌐 Connect with Me
 
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-buildbyabhi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/buildbyabhi)
-[![Gmail](https://img.shields.io/badge/Gmail-buildbyabhi.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:buildbyabhi.dev@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/buildbyabhi)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/buildbyabhi)
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:buildbyabhi.dev@gmail.com)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/buildbyabhi)
 
 <br/>
 
