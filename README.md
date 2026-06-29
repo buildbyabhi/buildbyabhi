@@ -45,28 +45,28 @@ open_to:
 ## 🚀 Featured Projects
 
 <details open>
-<summary><b>▶ Cursor Portfolio — Modern Web Design</b></summary>
+<summary><b>▶ Insta2YouTube Playlist — AI Playlist Automation</b></summary>
 <br/>
-A highly responsive, glassmorphism-styled personal portfolio featuring a sleek "Cursor-themed" design system with deep dark modes, neon accents, and fluid animations.
+Full-stack cross-platform app that identifies songs from IG Reels using AI and auto-adds them to YouTube playlists. Solves a major consumer pain point using cutting-edge APIs.
 
 | Aspect | Detail |
 | :-- | :-- |
-| **Stack** | React &middot; Vite &middot; Custom CSS |
-| **Highlights** | Floating IDE mockup, fully responsive mobile burger menu, micro-animations |
-| **Live** | [buildbyabhi.github.io](https://buildbyabhi.github.io) |
+| **Stack** | React Native &middot; Node.js &middot; Gemini AI &middot; YouTube API |
+| **Impact** | Automates music discovery workflow end-to-end |
+| **Live** | [Live Web App](https://insta2-you-tube.vercel.app/) / [Download APK](https://expo.dev/accounts/buildbyabhi/projects/mobile-app/builds/a69b0735-9a30-4339-8f96-2ab738a73f17) |
 
 </details>
 
 <details open>
-<summary><b>▶ ExpensePro API — Backend System</b></summary>
+<summary><b>▶ GeminiChat — Streaming AI Chatbot</b></summary>
 <br/>
-A robust backend API system designed for expense tracking and management, featuring optimized endpoints and automated health checks.
+ChatGPT-style AI chatbot integrating the latest Gemini AI models, featuring streaming responses and full markdown support for code blocks.
 
 | Aspect | Detail |
 | :-- | :-- |
-| **Stack** | Node.js &middot; Express |
-| **Scale** | Hosted via Render backend with automated ping mechanism |
-| **Impact** | Seamless 24/7 API availability avoiding cold starts |
+| **Stack** | React &middot; Gemini API &middot; Vite |
+| **Impact** | Real-time, fluid conversational interface |
+| **Live** | [geeminiai.vercel.app](https://geeminiai.vercel.app) |
 
 </details>
 
