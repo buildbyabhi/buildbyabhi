@@ -16,18 +16,22 @@
 ## `> cat current-focus.yaml`
 
 ```yaml
+profile:
+  - name: "Abhishek"
+  - role: "Full Stack Web Developer & Software Engineer"
+  - location: "India"
+
 education:
-  - degree: "B.Tech Computer Science"
+  - degree: "B.Tech Computer Science Engineering (2022-2026)"
   - university: "NIT Kurukshetra (NIT KKR)"
-  - batch: "2022-2026"
 
 learning & building:
-  - Exploring React, Vite, and modern Web Design patterns.
-  - Building full-stack projects like ExpensePro API and cursor-portfolio.
+  - Developing scalable web applications using React, Vite, and Node.js.
+  - Building AI-integrated full-stack software like Insta2YouTube and ExpensePro.
 
 open_to:
-  - Entry-level Software Engineering Roles
-  - Web Development Internships
+  - Software Engineering Roles & Web Development Internships
+  - Open Source Contributions & Freelance Projects
 ```
 
 <br/>
