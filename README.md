@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2ea043&height=250&section=header&text=Hi%20there,%20I'm%20Abhi!%20%F0%9F%91%8B&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=B.Tech%20CS%20Student%20@%20NIT%20KKR%20%7C%20Web%20Developer&descSize=20&descAlignY=75&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2ea043&height=250&section=header&text=Hi%20there,%20I'm%20Abhishek!%20%F0%9F%91%8B&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=B.Tech%20CS%20Student%20@%20NIT%20KKR%20%7C%20Web%20Developer&descSize=20&descAlignY=75&descAlign=50" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&color=2ea043&center=true&vCenter=true&width=820&lines=$+whoami+%E2%86%92+B.Tech+CS+Student+@+NIT+KKR;$+skills+%E2%86%92+React+%7C+C%2FC%2B%2B+%7C+Python+%7C+JavaScript;$+cat+open-to.txt+%E2%86%92+Software+Engineering+%26+Web+Dev+Roles" />
 
