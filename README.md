@@ -72,6 +72,19 @@ ChatGPT-style AI chatbot integrating the latest Gemini AI models, featuring stre
 
 <br/>
 
+## 🗂️ Other Projects
+
+| 🏷️ Project | 🔗 Links | 🛠️ Stack | 📝 Description |
+|------------|---------|---------|---------------|
+| **💰 ExpensePro Full-Stack** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/expensepro-fullstack) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://expensepro-fullstack.vercel.app) | `React 19` `Node.js` `MongoDB` `JWT` | Premium full-stack expense tracker with glassmorphism UI, JWT auth & Recharts |
+| **🌐 Cursor Portfolio** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/buildbyabhi.github.io) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io) | `HTML` `CSS` `JS` | Personal developer portfolio featuring a sleek "Cursor-themed" design |
+| **🌿 Fresh Factory** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/fresh-factory) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/fresh-factory) | `React` `JSX` `CSS` | Organic cafe website — interactive menu tabs & table booking |
+| **🥷 CoC Ninja** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/coc-ninja-progress-tracker) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/coc-ninja-progress-tracker) | `HTML` `CSS` `JS` | Offline Clash of Clans progress tracker — heroes, troops & war stats |
+| **💸 XpensePro** | [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://xpensepro2026.vercel.app/) | `React` `Vercel` | Smart expense tracker with beautiful analytics — live on Vercel |
+| **📊 IOCL Research Report** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/iocl-lucknow-report) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/iocl-lucknow-report) | `HTML` `Research` | 12-page corporate analysis & technical report for IOCL Lucknow |
+
+<br/>
+
 <div align="center">
 
 ## 📊 GitHub Analytics
