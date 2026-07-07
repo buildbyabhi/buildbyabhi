@@ -1,108 +1,136 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2ea043&height=250&section=header&text=Hi%20there,%20I'm%20Abhishek!%20%F0%9F%91%8B&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=B.Tech%20CS%20Student%20@%20NIT%20KKR%20%7C%20Web%20Developer&descSize=20&descAlignY=75&descAlign=50" />
+<img src="https://komarev.com/ghpvc/?username=buildbyAbhi&label=Profile%20Views&color=a855f7&style=for-the-badge&bust=1" alt="Profile Views"/>
+&nbsp;
+<a href="https://github.com/buildbyabhi?tab=followers">
+  <img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="GitHub Followers"/>
+</a>
+&nbsp;
+<a href="https://buildbyabhi.github.io">
+  <img src="https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+</a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&color=2ea043&center=true&vCenter=true&width=820&height=120&multiline=true&lines=$+whoami+%E2%86%92+B.Tech+CS+Student+@+NIT+KKR;$+skills+%E2%86%92+React+%7C+C%2FC%2B%2B+%7C+Python+%7C+JavaScript;$+cat+open-to.txt+%E2%86%92+Software+Engineering+%26+Web+Dev+Roles" />
+<br/><br/>
 
-### 🔗 Connect with me
-<a href="https://www.linkedin.com/in/buildwithabhi/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://buildbyabhi.github.io"><img src="https://img.shields.io/badge/Portfolio-2ea043?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
-<a href="https://instagram.com/buildbyabhidit.dev/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-
-<br/>
-
-</div>
-
-## `> cat current-focus.yaml`
-
-```yaml
-profile:
-  - name: "Abhishek"
-  - role: "Full Stack Web Developer & Software Engineer"
-  - location: "India"
-
-education:
-  - degree: "B.Tech Computer Science Engineering (2022-2026)"
-  - university: "NIT Kurukshetra (NIT KKR)"
-
-learning & building:
-  - Developing scalable web applications using React, Vite, and Node.js.
-  - Building AI-integrated full-stack software like Insta2YouTube and ExpensePro.
-
-open_to:
-  - Software Engineering Roles & Web Development Internships
-  - Open Source Contributions & Freelance Projects
+```bash
+┌────────────────────────────────────────────────────────────────────┐
+│ BuildByAbhi OS v2.0                                                │
+│                                                                    │
+│ $ whoami                                                           │
+│ Abhishek Kumar                                                     │
+│                                                                    │
+│ $ role                                                             │
+│ Full Stack Engineer | React • Node.js • AI                         │
+│                                                                    │
+│ $ status                                                           │
+│ Building AI-powered Products & Modern Web Experiences              │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
-<br/>
-
-<div align="center">
-
-## 💻 Tech Stack & Tools
-
-<img src="https://skillicons.dev/icons?i=react,html,css,js,cpp,python,git,github,vscode,vite,nodejs&theme=dark" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;Building+AI+powered+products+%F0%9F%A4%96;Open+Source+Enthusiast+%F0%9F%8C%9F" alt="Typing SVG" />
 
 </div>
 
-<br/>
+---
+
+## 🚧 Currently Building
+
+- **[Insta2YouTube (ReelSync AI)](https://github.com/buildbyabhi/Insta2YouTube)** — Automatically sync Instagram Reels audio to YouTube playlists using Gemini AI.
+- **[ExpensePro](https://github.com/buildbyabhi/expensepro-fullstack)** — A premium full-stack finance tracker with interactive Recharts and JWT auth.
+- **[GeminiChat](https://github.com/buildbyabhi/gemini-chat)** — ChatGPT-style intelligent AI assistant with streaming markdown responses.
+
+---
+
+<div align="center">
 
 ## 🚀 Featured Projects
 
-<details open>
-<summary><b>▶ Insta2YouTube Playlist — AI Playlist Automation</b></summary>
-<br/>
-Full-stack cross-platform app that identifies songs from IG Reels using AI and auto-adds them to YouTube playlists. Solves a major consumer pain point using cutting-edge APIs.
+<a href="https://github.com/buildbyabhi/Insta2YouTube">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=Insta2YouTube&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
+</a>
+<a href="https://github.com/buildbyabhi/expensepro-fullstack">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=expensepro-fullstack&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
+</a>
 
-| Aspect | Detail |
-| :-- | :-- |
-| **Stack** | React Native &middot; Node.js &middot; Gemini AI &middot; YouTube API |
-| **Impact** | Automates music discovery workflow end-to-end |
-| **Live** | [Live Web App](https://insta2-you-tube.vercel.app/) / [Download APK](https://expo.dev/accounts/buildbyabhi/projects/mobile-app/builds/a69b0735-9a30-4339-8f96-2ab738a73f17) |
-
-</details>
-
-<details open>
-<summary><b>▶ GeminiChat — Streaming AI Chatbot</b></summary>
-<br/>
-ChatGPT-style AI chatbot integrating the latest Gemini AI models, featuring streaming responses and full markdown support for code blocks.
-
-| Aspect | Detail |
-| :-- | :-- |
-| **Stack** | React &middot; Gemini API &middot; Vite |
-| **Impact** | Real-time, fluid conversational interface |
-| **Live** | [geeminiai.vercel.app](https://geeminiai.vercel.app) |
-
-</details>
+<a href="https://github.com/buildbyabhi/gemini-chat">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=gemini-chat&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
+</a>
+<a href="https://github.com/buildbyabhi/buildbyabhi.github.io">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=buildbyabhi.github.io&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
+</a>
 
 <br/>
+<p><a href="https://github.com/buildbyabhi?tab=repositories">View all repositories →</a></p>
 
-## 🗂️ Other Projects
+</div>
 
-| 🏷️ Project | 🔗 Links | 🛠️ Stack | 📝 Description |
-|------------|---------|---------|---------------|
-| **💰 ExpensePro Full-Stack** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/expensepro-fullstack) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://expensepro-fullstack.vercel.app) | `React 19` `Node.js` `MongoDB` `JWT` | Premium full-stack expense tracker with glassmorphism UI, JWT auth & Recharts |
-| **🌐 Cursor Portfolio** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/buildbyabhi.github.io) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io) | `HTML` `CSS` `JS` | Personal developer portfolio featuring a sleek "Cursor-themed" design |
-| **🌿 Fresh Factory** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/fresh-factory) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/fresh-factory) | `React` `JSX` `CSS` | Organic cafe website — interactive menu tabs & table booking |
-| **🥷 CoC Ninja** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/coc-ninja-progress-tracker) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/coc-ninja-progress-tracker) | `HTML` `CSS` `JS` | Offline Clash of Clans progress tracker — heroes, troops & war stats |
-| **💸 XpensePro** | [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://xpensepro2026.vercel.app/) | `React` `Vercel` | Smart expense tracker with beautiful analytics — live on Vercel |
-| **📊 IOCL Research Report** | [![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github)](https://github.com/buildbyabhi/iocl-lucknow-report) [![Live](https://img.shields.io/badge/Live-Visit-2ea043?style=flat-square&logo=vercel)](https://buildbyabhi.github.io/iocl-lucknow-report) | `HTML` `Research` | 12-page corporate analysis & technical report for IOCL Lucknow |
-
-<br/>
+---
 
 <div align="center">
 
-## 📊 GitHub Analytics
+## 🛠️ Tech Stack
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&show_icons=true&hide_border=true&title_color=2ea043&icon_color=2ea043&text_color=c9d1d9&bg_color=0d1117" />
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&hide_border=true&background=0d1117&stroke=2ea043&ring=2ea043&fire=2ea043&currStreakLabel=2ea043&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=buildbyabhi&layout=compact&hide_border=true&title_color=2ea043&text_color=c9d1d9&bg_color=0d1117" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&theme=react-dark&color=2ea043&hide_border=true&bg_color=0d1117" />
+**Frontend**<br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,js,ts&theme=dark" />
+</a>
 
 <br/><br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2ea043&height=100&section=footer" />
+**Backend & Database**<br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,python,cpp&theme=dark" />
+</a>
+
+<br/><br/>
+**Tools & Platforms**<br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,figma&theme=dark" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 GitHub Dashboard
+
+<img src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github&include_all_commits=true" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888" width="49%" alt="GitHub Streak"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/buildbyabhi/buildbyabhi/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌐 Connect & Collaborate
+
+[![Portfolio](https://img.shields.io/badge/-Portfolio-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/buildbyabhi)
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:buildbyabhi.dev@gmail.com)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/buildbyabhi)
+
+<br/>
+
+*Thanks for stopping by. If you're building something interesting, I'd love to collaborate.*
+
+**[Let's create something people actually use.](mailto:buildbyabhi.dev@gmail.com)**
+
 </div>
