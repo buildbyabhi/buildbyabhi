@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=buildbyAbhi&label=Profile%20Views&color=a855f7&style=for-the-badge&bust=1" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=buildbyAbhi&amp;label=Profile%20Views&amp;color=a855f7&amp;style=for-the-badge&amp;bust=1" alt="Profile Views"/>
 &nbsp;
-<a href="https://github.com/buildbyabhi?tab=followers">
-  <img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="GitHub Followers"/>
-</a>
+<a href="https://github.com/buildbyabhi?tab=followers"><img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&amp;style=for-the-badge&amp;color=a855f7&amp;labelColor=1a1a2e" alt="GitHub Followers"/></a>
 &nbsp;
-<a href="https://buildbyabhi.github.io">
-  <img src="https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-</a>
+<a href="https://buildbyabhi.github.io"><img src="https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Portfolio"/></a>
 
 <br/><br/>
 
@@ -27,7 +23,7 @@
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;Building+AI+powered+products+%F0%9F%A4%96;Open+Source+Enthusiast+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=A855F7&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=700&amp;height=100&amp;lines=Full+Stack+Developer+%F0%9F%9A%80;Building+AI+powered+products+%F0%9F%A4%96;Open+Source+Enthusiast+%F0%9F%8C%9F" alt="Typing SVG" />
 
 </div>
 
@@ -45,19 +41,11 @@
 
 ## 🚀 Featured Projects
 
-<a href="https://github.com/buildbyabhi/Insta2YouTube">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=Insta2YouTube&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
-</a>
-<a href="https://github.com/buildbyabhi/expensepro-fullstack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=expensepro-fullstack&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
-</a>
+<a href="https://github.com/buildbyabhi/Insta2YouTube"><img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Insta2YouTube&amp;theme=tokyonight" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&amp;repo=expensepro-fullstack&amp;theme=tokyonight" width="48%" /></a>
 
-<a href="https://github.com/buildbyabhi/gemini-chat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=gemini-chat&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
-</a>
-<a href="https://github.com/buildbyabhi/buildbyabhi.github.io">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=buildbyabhi.github.io&theme=tokyonight&bg_color=0d1117&border_color=a855f7&title_color=a855f7&icon_color=a855f7" width="48%" />
-</a>
+<a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&amp;repo=gemini-chat&amp;theme=tokyonight" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/buildbyabhi.github.io"><img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&amp;repo=buildbyabhi.github.io&amp;theme=tokyonight" width="48%" /></a>
 
 <br/>
 <p><a href="https://github.com/buildbyabhi?tab=repositories">View all repositories →</a></p>
@@ -71,21 +59,15 @@
 ## 🛠️ Tech Stack
 
 **Frontend**<br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,js,ts&theme=dark" />
-</a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,js,ts&amp;theme=dark" /></a>
 
 <br/><br/>
 **Backend & Database**<br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,python,cpp&theme=dark" />
-</a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,python,cpp&amp;theme=dark" /></a>
 
 <br/><br/>
 **Tools & Platforms**<br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,figma&theme=dark" />
-</a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,figma&amp;theme=dark" /></a>
 
 </div>
 
@@ -95,16 +77,16 @@
 
 ## 📊 GitHub Dashboard
 
-<img src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github&include_all_commits=true" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888" width="49%" alt="GitHub Streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;include_all_commits=true" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&amp;theme=tokyonight&amp;hide_border=true" width="49%" alt="GitHub Streak"/>
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4&amp;column=7" width="100%" alt="GitHub Trophies"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&amp;bg_color=0d1117&amp;color=a855f7&amp;line=a855f7&amp;point=ffffff&amp;area=true&amp;hide_border=true" width="100%" alt="Contribution Graph"/>
 
 <br/>
 
