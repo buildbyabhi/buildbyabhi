@@ -41,11 +41,11 @@
 
 ## 🚀 Featured Projects
 
-<a href="https://github.com/buildbyabhi/Insta2YouTube"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Insta2YouTube&amp;theme=tokyonight&amp;v=2" width="48%" /></a>
-<a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=expensepro-fullstack&amp;theme=tokyonight&amp;v=2" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/Insta2YouTube"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Insta2YouTube&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=expensepro-fullstack&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
 
-<a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=gemini-chat&amp;theme=tokyonight&amp;v=2" width="48%" /></a>
-<a href="https://github.com/buildbyabhi/buildbyabhi.github.io"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=buildbyabhi.github.io&amp;theme=tokyonight&amp;v=2" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=gemini-chat&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/buildbyabhi.github.io"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=buildbyabhi.github.io&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
 
 <br/>
 <p><a href="https://github.com/buildbyabhi?tab=repositories">View all repositories →</a></p>
@@ -77,7 +77,7 @@
 
 ## 📊 GitHub Dashboard
 
-<img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&amp;show_icons=true&amp;theme=tokyonight&amp;v=2&amp;hide_border=true&amp;include_all_commits=true" width="49%" alt="GitHub Stats"/>
+<img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&amp;show_icons=true&amp;theme=tokyonight&amp;v=3&amp;hide_border=true&amp;include_all_commits=true" width="49%" alt="GitHub Stats"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&amp;theme=tokyonight&amp;hide_border=true" width="49%" alt="GitHub Streak"/>
 
 <br/>
