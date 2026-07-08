@@ -41,7 +41,7 @@
 
 ## 🚀 Featured Projects
 
-<a href="https://github.com/buildbyabhi/Reel2YT"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Reel2YT&amp;theme=tokyonight&amp;v=4" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/Reel2YT"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Reel2YT&amp;theme=tokyonight&amp;v=5" width="48%" /></a>
 <a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=expensepro-fullstack&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
 
 <a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=gemini-chat&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
