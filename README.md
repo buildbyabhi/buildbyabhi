@@ -31,7 +31,7 @@
 
 ## 🚧 Currently Building
 
-- **[Insta2YouTube (ReelSync AI)](https://github.com/buildbyabhi/Insta2YouTube)** — Automatically sync Instagram Reels audio to YouTube playlists using Gemini AI.
+- **[Reel2YT (ReelSync AI)](https://github.com/buildbyabhi/Reel2YT)** — Automatically sync Instagram Reels audio to YouTube playlists using Gemini AI.
 - **[ExpensePro](https://github.com/buildbyabhi/expensepro-fullstack)** — A premium full-stack finance tracker with interactive Recharts and JWT auth.
 - **[GeminiChat](https://github.com/buildbyabhi/gemini-chat)** — ChatGPT-style intelligent AI assistant with streaming markdown responses.
 
@@ -41,7 +41,7 @@
 
 ## 🚀 Featured Projects
 
-<a href="https://github.com/buildbyabhi/Insta2YouTube"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Insta2YouTube&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/Reel2YT"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Reel2YT&amp;theme=tokyonight&amp;v=4" width="48%" /></a>
 <a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=expensepro-fullstack&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
 
 <a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=gemini-chat&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
