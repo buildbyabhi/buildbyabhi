@@ -31,7 +31,7 @@
 
 ## 🚧 Currently Building
 
-- **[Reel2YT (ReelSync AI)](https://github.com/buildbyabhi/Reel2YT)** — Automatically sync Instagram Reels audio to YouTube playlists using Gemini AI.
+- **[Reel2YT](https://github.com/buildbyabhi/Reel2YT)** — Paste an Instagram Reel URL to extract the song, listen on YouTube, and easily add it to your playlist.
 - **[ExpensePro](https://github.com/buildbyabhi/expensepro-fullstack)** — A premium full-stack finance tracker with interactive Recharts and JWT auth.
 - **[GeminiChat](https://github.com/buildbyabhi/gemini-chat)** — ChatGPT-style intelligent AI assistant with streaming markdown responses.
 
