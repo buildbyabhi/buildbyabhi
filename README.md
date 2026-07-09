@@ -1,88 +1,148 @@
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=buildbyAbhi&amp;label=Profile%20Views&amp;color=a855f7&amp;style=for-the-badge&amp;bust=1" alt="Profile Views"/>
+<!-- HERO SECTION -->
+<img src="Assets/superhero_poster.png" width="350" alt="Abhishek Kumar — Code Superhero"/>
+
+<br/>
+
+# ⚡ ABHISHEK KUMAR
+
+### `Full Stack Engineer` · `AI Builder` · `Open Source Enthusiast`
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Turning+coffee+into+code+since+Day+1+%E2%98%95;Shipping+AI+powered+products+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br/>
+
+<!-- SOCIAL ICONS -->
+<a href="https://buildbyabhi.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=58A6FF" alt="Portfolio"/></a>
 &nbsp;
-<a href="https://github.com/buildbyabhi?tab=followers"><img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&amp;style=for-the-badge&amp;color=a855f7&amp;labelColor=1a1a2e" alt="GitHub Followers"/></a>
+<a href="https://www.linkedin.com/in/buildbyabhi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
-<a href="https://buildbyabhi.github.io"><img src="https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.instagram.com/buildbyabhi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+&nbsp;
+<a href="mailto:buildbyabhi.dev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+&nbsp;
+<a href="https://github.com/buildbyabhi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
-<br/><br/>
+<br/>
 
-```bash
-┌────────────────────────────────────────────────────────────────────┐
-│ BuildByAbhi OS v2.0                                                │
-│                                                                    │
-│ $ whoami                                                           │
-│ Abhishek Kumar                                                     │
-│                                                                    │
-│ $ role                                                             │
-│ Full Stack Engineer | React • Node.js • AI                         │
-│                                                                    │
-│ $ status                                                           │
-│ Building AI-powered Products & Modern Web Experiences              │
-└────────────────────────────────────────────────────────────────────┘
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=A855F7&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=700&amp;height=100&amp;lines=Full+Stack+Developer+%F0%9F%9A%80;Building+AI+powered+products+%F0%9F%A4%96;Open+Source+Enthusiast+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://komarev.com/ghpvc/?username=buildbyAbhi&label=Profile%20Views&color=58A6FF&style=flat-square" alt="Profile Views"/>
+&nbsp;&nbsp;
+<a href="https://github.com/buildbyabhi?tab=followers"><img src="https://img.shields.io/github/followers/buildbyabhi?label=Followers&style=flat-square&color=58A6FF&labelColor=0D1117" alt="Followers"/></a>
 
 </div>
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## 🧑‍💻 About Me
+
+```js
+const abhishek = {
+    pronouns: "he" | "him",
+    currentRole: "Full Stack Engineer & AI Builder",
+    location: "India 🇮🇳",
+    workingOn: "AI-powered products & modern web experiences",
+    learning: ["LLMs", "Prompt Engineering", "System Design", "Vector DBs"],
+    askMeAbout: ["React", "Node.js", "Python", "AI/ML", "System Design"],
+    funFact: "I debug in my dreams 🌙"
+};
+```
+
+<br/>
 
 ## 🚧 Currently Building
 
-- **[Reel2YT](https://github.com/buildbyabhi/Reel2YT)** — Paste an Instagram Reel URL to extract the song, listen on YouTube, and easily add it to your playlist.
-- **[ExpensePro](https://github.com/buildbyabhi/expensepro-fullstack)** — A premium full-stack finance tracker with interactive Recharts and JWT auth.
-- **[GeminiChat](https://github.com/buildbyabhi/gemini-chat)** — ChatGPT-style intelligent AI assistant with streaming markdown responses.
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**Reel2YT**](https://github.com/buildbyabhi/Reel2YT) | Paste an Instagram Reel URL → extract the song → listen & add to YouTube playlist | React Native · Gemini AI · YouTube API |
+| [**ExpensePro**](https://github.com/buildbyabhi/expensepro-fullstack) | Premium full-stack finance tracker with interactive charts | React · Node.js · MongoDB · JWT |
+| [**GeminiChat**](https://github.com/buildbyabhi/gemini-chat) | ChatGPT-style AI assistant with streaming markdown | React · Gemini API · Node.js |
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🛠️ Tech Arsenal
+
+**`Backend`**<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,python,django,fastapi&theme=dark" /></a>
+
+<br/><br/>
+
+**`Frontend`**<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,js,ts&theme=dark" /></a>
+
+<br/><br/>
+
+**`Cloud & DevOps`**<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=aws,docker,vercel,linux,nginx&theme=dark" /></a>
+
+<br/><br/>
+
+**`Databases`**<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase&theme=dark" /></a>
+
+<br/><br/>
+
+**`AI / ML`**<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" height="48"/>
+<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" height="48"/>
+
+<br/><br/>
+
+**`Tools`**<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman&theme=dark" /></a>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 ## 🚀 Featured Projects
 
-<a href="https://github.com/buildbyabhi/Reel2YT"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=Reel2YT&amp;theme=tokyonight&amp;v=5" width="48%" /></a>
-<a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=expensepro-fullstack&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/Reel2YT"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=Reel2YT&theme=github_dark&v=6" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/expensepro-fullstack"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=expensepro-fullstack&theme=github_dark&v=6" width="48%" /></a>
 
-<a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=gemini-chat&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
-<a href="https://github.com/buildbyabhi/buildbyabhi.github.io"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&amp;repo=buildbyabhi.github.io&amp;theme=tokyonight&amp;v=3" width="48%" /></a>
-
-<br/>
-<p><a href="https://github.com/buildbyabhi?tab=repositories">View all repositories →</a></p>
-
-</div>
-
----
-
-<div align="center">
-
-## 🛠️ Tech Stack
-
-**Frontend**<br/>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,js,ts&amp;theme=dark" /></a>
-
-<br/><br/>
-**Backend & Database**<br/>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,python,cpp&amp;theme=dark" /></a>
-
-<br/><br/>
-**Tools & Platforms**<br/>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,figma&amp;theme=dark" /></a>
-
-</div>
-
----
-
-<div align="center">
-
-## 📊 GitHub Dashboard
-
-<img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&amp;show_icons=true&amp;theme=tokyonight&amp;v=3&amp;hide_border=true&amp;include_all_commits=true" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&amp;theme=tokyonight&amp;hide_border=true" width="49%" alt="GitHub Streak"/>
+<a href="https://github.com/buildbyabhi/gemini-chat"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=gemini-chat&theme=github_dark&v=6" width="48%" /></a>
+<a href="https://github.com/buildbyabhi/buildbyabhi.github.io"><img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=buildbyabhi.github.io&theme=github_dark&v=6" width="48%" /></a>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&amp;bg_color=0d1117&amp;color=a855f7&amp;line=a855f7&amp;point=ffffff&amp;area=true&amp;hide_border=true" width="100%" alt="Contribution Graph"/>
+<a href="https://github.com/buildbyabhi?tab=repositories">**`View All Repositories →`**</a>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 📊 GitHub Analytics
+
+<img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&v=6" width="49%" alt="GitHub Stats"/>
+<img src="https://streak-stats.demolab.com?user=buildbyabhi&theme=github-dark-blue&hide_border=true" width="49%" alt="GitHub Streak"/>
+
+<br/>
+
+<img src="https://my-github-stats-theta-one.vercel.app/api/top-langs/?username=buildbyabhi&layout=compact&theme=github_dark&hide_border=true&v=6" width="40%" alt="Top Languages"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=buildbyabhi&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&theme=darkhub&no-frame=true&no-bg=true&column=7" width="100%" alt="Trophies"/>
 
 <br/>
 
@@ -94,21 +154,31 @@
 
 </div>
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## 🌐 Connect & Collaborate
+## 🤝 Let's Connect
 
-[![Portfolio](https://img.shields.io/badge/-Portfolio-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/buildbyabhi)
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:buildbyabhi.dev@gmail.com)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/buildbyabhi)
+<img src="https://img.shields.io/badge/-Open_to_Collaborations-58A6FF?style=for-the-badge" alt="Open to Collaborations"/>
+
+<br/><br/>
+
+*Building something cool? I'd love to hear about it.*<br/>
+*Let's create something people actually use.*
 
 <br/>
 
-*Thanks for stopping by. If you're building something interesting, I'd love to collaborate.*
+<a href="mailto:buildbyabhi.dev@gmail.com"><img src="https://img.shields.io/badge/Drop_a_Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/buildbyabhi"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
-**[Let's create something people actually use.](mailto:buildbyabhi.dev@gmail.com)**
+</div>
 
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer" width="100%"/>
 </div>
