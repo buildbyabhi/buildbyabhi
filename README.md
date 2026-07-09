@@ -9,7 +9,7 @@
 
 ### `Full Stack Engineer` · `AI Builder` · `Open Source Enthusiast`
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=Powered+by+Chai+%26+Curiosity+%F0%9F%8D%B5;Building+AI+That+People+Actually+Use+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=Turning+chai+into+code+since+Day+1+%F0%9F%8D%B5;Shipping+AI-powered+products+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
