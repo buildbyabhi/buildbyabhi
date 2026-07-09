@@ -117,7 +117,7 @@ const abhishek = {
 
 <br/>
 
-<a href="https://github.com/buildbyabhi?tab=repositories">**`View All Repositories →`**</a>
+<a href="https://github.com/buildbyabhi?tab=repositories"><img src="https://img.shields.io/badge/View_All_Repositories_→-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="View All Repos"/></a>
 
 </div>
 
@@ -130,7 +130,7 @@ const abhishek = {
 ## 📊 GitHub Analytics
 
 <img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&v=6" width="49%" alt="GitHub Stats"/>
-<img src="https://streak-stats.demolab.com?user=buildbyabhi&theme=github-dark-blue&hide_border=true" width="49%" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app?user=buildbyabhi&theme=github-dark-blue&hide_border=true" width="49%" alt="GitHub Streak"/>
 
 <br/>
 
