@@ -144,6 +144,8 @@
 
 ---
 
+<div align="center">
+
 ## 🌐 Connect with Me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-buildbyabhi.github.io-a855f7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://buildbyabhi.github.io)
@@ -151,6 +153,8 @@
 [![Gmail](https://img.shields.io/badge/Gmail-kumarkumarabhishek285-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumarkumarabhishek285@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/buildbyabhi)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/buildbyabhi)
+
+</div>
 
 ---
 
