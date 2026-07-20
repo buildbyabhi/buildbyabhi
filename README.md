@@ -112,7 +112,7 @@
 
 <div align="center">
   <img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888&v=1" width="49%" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888&v=2" width="49%" alt="GitHub Streak"/>
 
   <br/>
 
