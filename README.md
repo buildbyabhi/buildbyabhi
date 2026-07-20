@@ -53,17 +53,17 @@
   
   <!-- ReelSync AI -->
   <a href="https://github.com/buildbyabhi/Insta2YouTube">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=Insta2YouTube&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=a855f7&text_color=ffffff&bg_color=0d1117" alt="ReelSync AI" />
+    <img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=Insta2YouTube&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=a855f7&text_color=ffffff&bg_color=0d1117" alt="ReelSync AI" />
   </a>
   
   <!-- ExpensePro -->
   <a href="https://github.com/buildbyabhi/expensepro-fullstack">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=expensepro-fullstack&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=a855f7&text_color=ffffff&bg_color=0d1117" alt="ExpensePro" />
+    <img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=expensepro-fullstack&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=a855f7&text_color=ffffff&bg_color=0d1117" alt="ExpensePro" />
   </a>
   
   <!-- GeminiChat -->
   <a href="https://github.com/buildbyabhi/gemini-chat">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=buildbyabhi&repo=gemini-chat&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=a855f7&text_color=ffffff&bg_color=0d1117" alt="GeminiChat" />
+    <img src="https://my-github-stats-theta-one.vercel.app/api/pin/?username=buildbyabhi&repo=gemini-chat&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=a855f7&text_color=ffffff&bg_color=0d1117" alt="GeminiChat" />
   </a>
   
 </div>
@@ -106,18 +106,19 @@
 
 ## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888" width="49%" alt="GitHub Streak"/>
+<img src="https://my-github-stats-theta-one.vercel.app/api?username=buildbyabhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=ffffff&rank_icon=github" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=buildbyabhi&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=ff6b6b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=888888" width="49%" alt="GitHub Streak"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=buildbyabhi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&langs_count=8" width="49%" alt="Top Languages"/>
+<img src="https://my-github-stats-theta-one.vercel.app/api/top-langs/?username=buildbyabhi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&langs_count=8" width="49%" alt="Top Languages"/>
 
 ---
 
 ## 🏆 GitHub Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies"/>
+<!-- <img src="https://github-profile-trophy.vercel.app/?username=buildbyabhi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies"/> -->
+<p align="center"><i>(Trophies temporarily disabled due to API limits)</i></p>
 
 ---
 
